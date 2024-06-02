@@ -1,5 +1,8 @@
 import os
 from datetime import datetime
+from pytz import timezone
+import pytz
+import datetime
 
 # Specify the path to the folder and the markdown file
 folder_path = "./"
@@ -10,14 +13,17 @@ if not os.path.exists(folder_path):
           print(f"Folder '{folder_path}' does not exist.")
           exit()
 
-# Determine the current greeting based on the time of day
-current_hour = datetime.now().hour
+
+santiago_timezone = timezone('America/Santiago')
+current_time = datetime.datetime.now(santiago_timezone)
+current_hour = current_time.strftime("%H")
+current_hour = int(current_hour)
 
 print(f"La hora es: {current_hour}")
 
 if 6 <= current_hour < 12:
           greeting = "¡Buenos días! 🌅"
-elif 12 <= current_hour < 18:
+elif 12 <= current_hour < 20:
           greeting = "¡Buenas tardes! ☀️"
 else:
           greeting = "¡Buenas noches! 🌙"
