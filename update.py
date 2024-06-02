@@ -13,7 +13,7 @@ if not os.path.exists(folder_path):
 # Determine the current greeting based on the time of day
 current_hour = datetime.now().hour
 
-print("La hora es: " + current_hour)
+print(f"La hora es: {current_hour}")
 
 if 6 <= current_hour < 12:
           greeting = "¡Buenos días! 🌅"
