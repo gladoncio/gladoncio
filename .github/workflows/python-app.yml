@@ -31,5 +31,7 @@ jobs:
     - name: run update
       run: |
         python update.py
-        
+    - name: Commit files
+      run: |
+        git push
 
