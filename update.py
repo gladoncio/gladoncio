@@ -13,7 +13,7 @@ if not os.path.exists(folder_path):
           print(f"Folder '{folder_path}' does not exist.")
           exit()
 
-hora_server = datetime.now().hour
+hora_server = datetime.datetime.now().hour
 
 print(f"La hora servidor es: {hora_server}")
 
