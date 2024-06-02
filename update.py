@@ -13,6 +13,9 @@ if not os.path.exists(folder_path):
           print(f"Folder '{folder_path}' does not exist.")
           exit()
 
+hora_server = datetime.now().hour
+
+print(f"La hora servidor es: {hora_server}")
 
 santiago_timezone = timezone('America/Santiago')
 current_time = datetime.datetime.now(santiago_timezone)
