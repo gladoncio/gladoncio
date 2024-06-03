@@ -4,7 +4,7 @@
 name: Update readme
 on:
   schedule:
-    - cron: '0 2,6,8,12,16,20 * * *'
+    - cron: '0 6,10,12,16,20,0 * * *'
   push:
     branches: [ "main" ]
 
