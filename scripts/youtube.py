@@ -47,7 +47,7 @@ def main():
 
 
     markdown_content = "## Últimos Videos en YouTube\n\n"
-    markdown_content += "### 📹 Link al canal [canal de Youtube](https://www.youtube.com/channel/UCenmk0ASesMbzWXMl610aDw?sub_confirmation=1)\n"
+    markdown_content += "### 📹 Link al [canal de Youtube](https://www.youtube.com/channel/UCenmk0ASesMbzWXMl610aDw?sub_confirmation=1)\n"
     for title, url, thumbnail in videos:
         markdown_content += f'  <a href="{url}" target="_blank">\n<img src="{thumbnail}" alt="{title}" width="33%">\n</a>\n'
 
