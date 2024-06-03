@@ -4,8 +4,7 @@ import subprocess
 import argparse
 
 # Specify the path to the folder and the markdown file
-folder_path = "./"
-markdown_file = "README.MD"
+folder_path = "./README.MD"
 
 async def run_script(script_path, args, folder_path):
     command = ['python', script_path, folder_path] + args
@@ -36,8 +35,6 @@ if __name__ == '__main__':
     # Assign the parsed arguments to a variable
     script_args = args.script_args
 
-    # Print the script arguments for debugging purposes
-    print(f"Script arguments: {script_args}")
 
     # Run the main function with the provided script arguments
     asyncio.run(main(script_args))

@@ -8,7 +8,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: "2 6,12,20 * * *"
+    - cron: '*/2 * * * *'  # Cada 2 minutos
 
 permissions:
   contents: write
@@ -33,7 +33,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: run update
       run: |
-        python main.py
+        python main.py ${{ secrets.KEY_YOUTUBE }}
     - name: Commit files
       uses: stefanzweifel/git-auto-commit-action@v5
         

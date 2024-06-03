@@ -37,11 +37,8 @@ def main():
     # Define possible greetings that could be in the markdown file
     possible_greetings = ["# ¡Buenos días! 🌅", "# ¡Buenas tardes! ☀️", "# ¡Buenas noches! 🌙"]
 
-    # Specify the path to the markdown file
-    markdown_file = "README.MD"
-    
     # Construct the full path to the markdown file
-    markdown_file_path = os.path.join(folder_path, markdown_file)
+    markdown_file_path = os.path.join(folder_path)
 
     # Read the contents of the markdown file
     with open(markdown_file_path, "r", encoding="utf-8") as file:
@@ -57,6 +54,7 @@ def main():
         file.write(markdown_content)
 
     print("Markdown file updated successfully!")
+
 
 if __name__ == "__main__":
     main()
