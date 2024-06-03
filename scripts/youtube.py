@@ -45,19 +45,15 @@ def main():
         thumbnail_url = item["snippet"]["thumbnails"]["medium"]["url"]
         videos.append((truncated_title, video_url, thumbnail_url))
 
-    # Define el tamaño de las imágenes
-    thumbnail_width = 220
-    thumbnail_height = 110
 
-    # Genera el contenido en Markdown usando HTML
-    markdown_content = "## Últimos Videos en YouTube\n\n"
+    markdown_content = "## Últimos Videos en YouTube"
     markdown_content += '<div style="display: flex; justify-content: space-around;">\n'
     for title, url, thumbnail in videos:
         markdown_content += f'  <div style="text-align: center; margin: 10px;">\n'
-        markdown_content += f'    <a href="{url}"><img src="{thumbnail}" alt="{title}" width="{thumbnail_width}" height="{thumbnail_height}"></a>\n'
-        markdown_content += f'    <p>{title}</p>\n'
-        markdown_content += '  </div>\n'
-    markdown_content += '</div>\n'
+        markdown_content += f'    <a href="{url}"><img src="{thumbnail}" alt="{title}" width="30%"></a>'
+        markdown_content += f'    <p>{title}</p>'
+        markdown_content += '  </div>'
+    markdown_content += '</div>'
 
     # Lee el contenido existente del archivo
     with open(file_path, "r", encoding="utf-8") as file:
