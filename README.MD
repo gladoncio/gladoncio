@@ -1,4 +1,10 @@
 # ¡Hola buenas! 🌙
+[![GitHub followers](https://img.shields.io/github/followers/gladoncio.svg?style=social&label=Follow)](https://github.com/gladoncio)
+[![GitHub forks](https://img.shields.io/github/stars/gladoncio?style=social)](https://github.com/gladoncio)
+[![GitHub followers](https://img.shields.io/github/followers/gladoncio?style=social)](https://github.com/gladoncio)
+[![Youtube views](https://img.shields.io/youtube/channel/views/UCenmk0ASesMbzWXMl610aDw?style=social)](https://github.com/gladoncio)
+[![Youtube views](https://img.shields.io/youtube/channel/views/UCenmk0ASesMbzWXMl610aDw?style=social)](https://github.com/gladoncio)
+[![Subs](https://img.shields.io/youtube/channel/subscribers/UCenmk0ASesMbzWXMl610aDw?style=social)](https://github.com/gladoncio)
 
 Soy Adrian, un apasionado de la informática 🖥️ y amante de la programación 💻. Actualmente, me encuentro inmerso en mi viaje educativo en informática, adquiriendo conocimientos formales para complementar mi autodidactismo previo.
 
