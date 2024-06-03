@@ -35,7 +35,7 @@ def main():
         greeting = "¡Buenas noches! 🌙"
 
     # Define possible greetings that could be in the markdown file
-    possible_greetings = ["# ¡Buenos días! 🌅", "# ¡Buenas tardes! ☀️", "# ¡Buenas noches! 🌙"]
+    possible_greetings = ["# ¡Hola buenas! 🌙","# ¡Buenos días! 🌅", "# ¡Buenas tardes! ☀️", "# ¡Buenas noches! 🌙"]
 
     # Construct the full path to the markdown file
     markdown_file_path = os.path.join(folder_path)
