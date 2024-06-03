@@ -37,8 +37,8 @@ def main():
         videos.append((title, video_url, thumbnail_url))
 
     # Define el tamaño de las imágenes
-    thumbnail_width = 320
-    thumbnail_height = 180
+    thumbnail_width = 290
+    thumbnail_height = 160
 
     # Genera el contenido en Markdown usando HTML
     markdown_content = "## Últimos Videos en YouTube\n\n"
