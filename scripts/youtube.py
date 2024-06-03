@@ -47,12 +47,12 @@ def main():
 
 
     markdown_content = "## Últimos Videos en YouTube"
+    markdown_content += '<div style="display: flex; justify-content: space-around;">\n'
     for title, url, thumbnail in videos:
         markdown_content += f'  <div style="text-align: center; margin: 10px;">\n'
         markdown_content += f'    <a href="{url}"><img src="{thumbnail}" alt="{title}" width="30%"></a>'
-        markdown_content += f'    <p>{title}</p>'
         markdown_content += '  </div>'
-
+    markdown_content += '</div>'
 
     # Lee el contenido existente del archivo
     with open(file_path, "r", encoding="utf-8") as file:
