@@ -4,7 +4,7 @@
 name: Update readme
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Cada 2 minutos
+    - cron: '*/6 * * * *'  # Cada 2 minutos
 
 permissions:
   contents: write
