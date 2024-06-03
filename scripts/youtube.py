@@ -48,7 +48,7 @@ def main():
 
     markdown_content = "## Últimos Videos en YouTube\n\n"
     for title, url, thumbnail in videos:
-        markdown_content += f'  <a href="{url}"><img src="{thumbnail}" alt="{title}" width="30%"></a>\n'
+        markdown_content += f'  <a href="{url}"><img src="{thumbnail}" alt="{title}" width="33%"></a>\n'
 
     # Lee el contenido existente del archivo
     with open(file_path, "r", encoding="utf-8") as file:
