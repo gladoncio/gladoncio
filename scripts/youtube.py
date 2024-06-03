@@ -3,6 +3,14 @@ import os
 import sys
 import re
 
+def truncate_title(title, max_length=27):
+    if len(title) <= max_length:
+        return title
+    truncated = title[:max_length].rsplit(' ', 1)[0]
+    if len(truncated) == 0:
+        truncated = title[:max_length]
+    return truncated + '...'
+
 def main():
     if len(sys.argv) < 3:
         print("Usage: python publicaciones.py <file_path> <key>")
@@ -31,10 +39,11 @@ def main():
     videos = []
     for item in data["items"]:
         title = item["snippet"]["title"]
+        truncated_title = truncate_title(title)
         video_id = item["id"]["videoId"]
         video_url = f"https://www.youtube.com/watch?v={video_id}"
         thumbnail_url = item["snippet"]["thumbnails"]["medium"]["url"]
-        videos.append((title, video_url, thumbnail_url))
+        videos.append((truncated_title, video_url, thumbnail_url))
 
     # Define el tamaño de las imágenes
     thumbnail_width = 220
