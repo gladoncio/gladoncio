@@ -16,6 +16,7 @@ Soy Adrian, un apasionado de la informática 🖥️ y amante de la programació
 
 ## Últimos Videos en YouTube
 
+### 📹 Link al canal [canal de Youtube](https://www.youtube.com/channel/UCenmk0ASesMbzWXMl610aDw?sub_confirmation=1)
   <a href="https://www.youtube.com/watch?v=S9ZMB50T9dI" target="_blank">
 <img src="https://i.ytimg.com/vi/S9ZMB50T9dI/mqdefault.jpg" alt="Mas que tutorial Guía..." width="33%">
 </a>
