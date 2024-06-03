@@ -13,3 +13,7 @@ Soy Adrian, un apasionado de la informática 🖥️ y amante de la programació
 
 ## Únete a Mi Viaje
 ¡Únete a mí en este emocionante viaje de aprendizaje y descubrimiento! 🚀 Estoy ansioso por conectarme, colaborar y aprender juntos en el fascinante mundo de la tecnología! 🌐✨
+
+## Últimos Videos en YouTube
+
+    <a href="https://www.youtube.com/watch?v=S9ZMB50T9dI"><img src="https://i.ytimg.com/vi/S9ZMB50T9dI/mqdefault.jpg" alt="Mas que tutorial Guía..." width="30%"></a>    <a href="https://www.youtube.com/watch?v=guoLLSVFcAQ"><img src="https://i.ytimg.com/vi/guoLLSVFcAQ/mqdefault.jpg" alt="MI pc se pone a volar,..." width="30%"></a>    <a href="https://www.youtube.com/watch?v=sQDcJ54Y7bM"><img src="https://i.ytimg.com/vi/sQDcJ54Y7bM/mqdefault.jpg" alt="Gladoncio explicando la..." width="30%"></a>
