@@ -4,7 +4,8 @@
 name: Update readme
 on:
   schedule:
-    - cron: '*/6 * * * *'  # Cada 2 minutos
+    - cron: '1 6,12,20,2,10,18 * * *'
+    # update a las 6:01, 12:01, 20:01, 2:01, 10:01, 18:01 horas por la utc y chile
 
 permissions:
   contents: write
