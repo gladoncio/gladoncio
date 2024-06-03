@@ -16,6 +16,6 @@ Soy Adrian, un apasionado de la informática 🖥️ y amante de la programació
 
 ## Últimos Videos en YouTube
 
-  <a href="https://www.youtube.com/watch?v=S9ZMB50T9dI"><img src="https://i.ytimg.com/vi/S9ZMB50T9dI/mqdefault.jpg" alt="Mas que tutorial Guía..." width="30%"></a>
-  <a href="https://www.youtube.com/watch?v=guoLLSVFcAQ"><img src="https://i.ytimg.com/vi/guoLLSVFcAQ/mqdefault.jpg" alt="MI pc se pone a volar,..." width="30%"></a>
-  <a href="https://www.youtube.com/watch?v=sQDcJ54Y7bM"><img src="https://i.ytimg.com/vi/sQDcJ54Y7bM/mqdefault.jpg" alt="Gladoncio explicando la..." width="30%"></a>
+  <a href="https://www.youtube.com/watch?v=S9ZMB50T9dI"><img src="https://i.ytimg.com/vi/S9ZMB50T9dI/mqdefault.jpg" alt="Mas que tutorial Guía..." width="33%"></a>
+  <a href="https://www.youtube.com/watch?v=guoLLSVFcAQ"><img src="https://i.ytimg.com/vi/guoLLSVFcAQ/mqdefault.jpg" alt="MI pc se pone a volar,..." width="33%"></a>
+  <a href="https://www.youtube.com/watch?v=sQDcJ54Y7bM"><img src="https://i.ytimg.com/vi/sQDcJ54Y7bM/mqdefault.jpg" alt="Gladoncio explicando la..." width="33%"></a>
