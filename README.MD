@@ -18,15 +18,15 @@ Soy Adrian, un apasionado de la informática 🖥️ y amante de la programació
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center; margin: 10px;">
-    <a href="https://www.youtube.com/watch?v=S9ZMB50T9dI"><img src="https://i.ytimg.com/vi/S9ZMB50T9dI/mqdefault.jpg" alt="Mas que tutorial Guía visual de mi Arch Linux C:" width="320" height="180"></a>
+    <a href="https://www.youtube.com/watch?v=S9ZMB50T9dI"><img src="https://i.ytimg.com/vi/S9ZMB50T9dI/mqdefault.jpg" alt="Mas que tutorial Guía visual de mi Arch Linux C:" width="290" height="160"></a>
     <p>Mas que tutorial Guía visual de mi Arch Linux C:</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <a href="https://www.youtube.com/watch?v=guoLLSVFcAQ"><img src="https://i.ytimg.com/vi/guoLLSVFcAQ/mqdefault.jpg" alt="MI pc se pone a volar, arch linux y parte de mi setup." width="320" height="180"></a>
-    <p>MI pc se pone a volar, arch ldadadadadinux y parte de mi setup.</p>
+    <a href="https://www.youtube.com/watch?v=guoLLSVFcAQ"><img src="https://i.ytimg.com/vi/guoLLSVFcAQ/mqdefault.jpg" alt="MI pc se pone a volar, arch linux y parte de mi setup." width="290" height="160"></a>
+    <p>MI pc se pone a volar, arch linux y parte de mi setup.</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <a href="https://www.youtube.com/watch?v=sQDcJ54Y7bM"><img src="https://i.ytimg.com/vi/sQDcJ54Y7bM/mqdefault.jpg" alt="Gladoncio explicando la falla SPOILER de intel" width="320" height="180"></a>
-    <p>Gladoncio explicando la falla dadadadaSPOILER de intel</p>
+    <a href="https://www.youtube.com/watch?v=sQDcJ54Y7bM"><img src="https://i.ytimg.com/vi/sQDcJ54Y7bM/mqdefault.jpg" alt="Gladoncio explicando la falla SPOILER de intel" width="290" height="160"></a>
+    <p>Gladoncio explicando la falla SPOILER de intel</p>
   </div>
 </div>
