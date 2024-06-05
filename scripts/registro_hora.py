@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 
 # Nombre del archivo donde se guardarán los registros
-filename = "../registros.txt"
+filename = "./registros.txt"
 
 # Función para leer los registros actuales desde el archivo
 def leer_registros(filename):
